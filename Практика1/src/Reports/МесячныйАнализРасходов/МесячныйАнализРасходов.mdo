@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7746213-50fb-4d24-8b53-72596de5f2b9">
+  <producedTypes>
+    <objectType typeId="cc413fbc-ce7a-45a2-ab91-827440303b4d" valueTypeId="ee0fd494-a69f-4232-9cf3-e7d418660d04"/>
+    <managerType typeId="d1422ff9-0217-460b-8b5c-9a509e2446e0" valueTypeId="e6f6e551-149c-4932-9745-2efe8bba88b1"/>
+  </producedTypes>
+  <name>МесячныйАнализРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Месячный анализ расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.МесячныйАнализРасходов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c9c44b4c-e289-4d02-9d16-f0030fa80434">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

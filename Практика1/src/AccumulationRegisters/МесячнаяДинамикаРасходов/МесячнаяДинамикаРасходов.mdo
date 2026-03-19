@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3da89e04-4a66-42d6-a9a0-4e702843b788">
+  <producedTypes>
+    <selectionType typeId="c5bcd15f-a816-49f5-98d4-21a9428cc1d5" valueTypeId="d4b473be-5ec8-47dd-8a9c-7625bbf6c15c"/>
+    <listType typeId="b1476683-5814-4621-b9bd-77ce473bb0d8" valueTypeId="537883ff-4c7a-4859-aef4-0252c98fbc7b"/>
+    <managerType typeId="521b41fc-8abc-43bd-bbc7-b367ea3674e1" valueTypeId="01faf66f-233f-4925-9b18-ec25b4bb506b"/>
+    <recordSetType typeId="52479d45-a4f3-4129-a9a6-7363e53a796b" valueTypeId="0fe670b2-77ec-4b4b-9be0-a691f9b8c814"/>
+    <recordKeyType typeId="608805b6-0f2c-418a-b0b2-fb70cec366ab" valueTypeId="497719b3-4244-4d6e-97a8-9afefd7b4317"/>
+    <recordType typeId="074f96e1-124a-479c-aae8-51d3c2c6240b" valueTypeId="d49f721c-34c3-4d1b-b16e-45d7dda53a4d"/>
+  </producedTypes>
+  <name>МесячнаяДинамикаРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Месячная динамика расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="39110bf0-c175-4bbe-9d60-a72bb12c9a88">
+    <name>СуммаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма расходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5e8195dc-ad29-423e-8eb1-53c8c1f605cc">
+    <name>КатегорияРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4675f2ac-ef04-45f5-af71-e9598bfde177">
+    <name>УчастникСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник семьи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчастникиСемьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

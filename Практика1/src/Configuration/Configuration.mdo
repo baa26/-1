@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f53e22-7f9d-4ce7-8f62-fa95dd7fd055">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b0eb30da-5c4f-4a45-83e2-98456be0773e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c92a5b81-e8bf-47d1-8880-19ce269f0af4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a85be801-5355-4c90-a103-620cd5020215"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="be66468e-9ee5-4efc-8362-47c124aa3a4f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f48f3e7d-39cc-4e6a-9682-cf5105d6be1d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d508f426-ab08-4c8b-aa22-f63cefdee13e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a2afb311-70d6-4d50-b6d5-c0c885d2f7ef"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="5e199a5b-503a-4f72-9169-e05547dcdd7d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.КатегорииРасходов</catalogs>
+  <catalogs>Catalog.УчастникиСемьи</catalogs>
+  <documents>Document.Расход</documents>
+  <documents>Document.Лимиты</documents>
+  <documents>Document.ПополнениеСемейногоБюджета</documents>
+  <enums>Enum.РолиВСемье</enums>
+  <reports>Report.МесячныйАнализРасходов</reports>
+  <informationRegisters>InformationRegister.СемейныйБюджет</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЕжедневныеРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.МесячнаяДинамикаРасходов</accumulationRegisters>
+</mdclass:Configuration>

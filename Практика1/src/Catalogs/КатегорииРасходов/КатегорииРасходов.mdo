@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160cd80f-a3d0-4e25-8f0b-eb21077ac365">
+  <producedTypes>
+    <objectType typeId="24925669-d3be-4f39-9a04-a37592f5f19e" valueTypeId="d2fd3137-c2cc-4ebc-abdb-72d3106edf1f"/>
+    <refType typeId="b8539bee-9b7a-4676-a740-79897eb94975" valueTypeId="01a6955f-70c3-4a41-bb03-7677388d6044"/>
+    <selectionType typeId="d0f70a01-3814-4557-be53-f70b3b0a8c69" valueTypeId="e2a7a446-b8f0-4862-8967-a4f65f47f737"/>
+    <listType typeId="d6c23464-e351-4a0e-816d-cb3f4b90cb3c" valueTypeId="aa9366a4-e81d-4025-a41a-36838d5c54e3"/>
+    <managerType typeId="447b5aad-924a-4f0f-be88-839ea3c76aba" valueTypeId="5170f6e6-e4d6-4cb6-bcad-b654c5d3afb1"/>
+  </producedTypes>
+  <name>КатегорииРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииРасходов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииРасходов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="23e4e717-87fb-409f-b104-4870aa51a6a2">
+      <name>ПополнениеБюджета</name>
+      <description>Пополнение бюджета</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КатегорииРасходов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5d38f3de-fde9-4efd-8b71-339decd0b447">
+    <name>ЦветВыделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет выделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5200479-9289-429a-80ed-e527358c9f4c">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5d6988f5-d1f0-43b4-b930-9e3ba7d11db2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

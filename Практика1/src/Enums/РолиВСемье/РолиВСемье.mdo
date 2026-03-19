@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece7d37d-bd4e-426b-9163-9f205d55b399">
+  <producedTypes>
+    <refType typeId="0eac2cf3-4034-49fe-afbb-f38bb80a72b5" valueTypeId="10e29388-26ed-4813-915b-e83f9cb1c8c0"/>
+    <listType typeId="2e0cc29d-6563-4b6c-80bf-58e9a1c79710" valueTypeId="148e01d1-aff2-43ed-af0b-052cd9eaa632"/>
+    <managerType typeId="1bafde63-1bcf-4670-bf65-ade81128cc8a" valueTypeId="6bcdbaf5-c218-421f-9a8c-214f78db6749"/>
+  </producedTypes>
+  <name>РолиВСемье</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли в семье</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="813fc820-7a32-40a7-9165-1009ff03273a">
+    <name>Мама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мама</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e18da2fc-608b-4d5a-913d-01d94de732ab">
+    <name>Папа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0940cd9b-a9be-40ff-a61b-f5dd9be31748">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e8c363f-9c57-4013-b069-f62df60836c5">
+    <name>Бабушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бабушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e30f1c00-b987-4f03-9f3e-c9f0fd792928">
+    <name>Дедушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дедушка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

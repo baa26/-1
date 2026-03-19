@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b9a4e49-c621-4641-abb8-441a90b44541">
+  <producedTypes>
+    <objectType typeId="f6d02965-9af6-4d0f-887d-53bd3418b999" valueTypeId="74480eef-5a09-4994-804d-f06bf422db6c"/>
+    <refType typeId="2c2134d0-6d54-4e3c-b919-23b2df1b67b0" valueTypeId="d2e935fd-88ed-460d-9b4f-33507ab8d2d8"/>
+    <selectionType typeId="31277f84-0ea4-4b03-a3fa-3a42def3c4c2" valueTypeId="f148f5a7-a3c8-42bc-9bff-cf263b8b626c"/>
+    <listType typeId="ab67f185-004c-4ecb-b965-bd0bcca35751" valueTypeId="af5f4285-8fe3-4068-8e7d-f9319c27bdfb"/>
+    <managerType typeId="4388fb3f-2fb0-4a7e-8aa8-38f7f576faa2" valueTypeId="2acb6212-0460-49d8-afc9-4fa2b011789b"/>
+  </producedTypes>
+  <name>ПополнениеСемейногоБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пополнение семейного бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПополнениеСемейногоБюджета.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ЕжедневныеРасходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e1b00a5b-1b7e-4aa9-a624-68024f0cb5d2">
+    <name>УчастникСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участник семьи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчастникиСемьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="569d28c6-f82f-42be-b389-24b4b2b88059">
+    <name>СуммаПополнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма пополнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

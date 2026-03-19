@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3f6bb99-638c-4697-9b61-17c133e4a967">
+  <producedTypes>
+    <objectType typeId="86a4cce2-4cd0-4c53-a68f-026f9746c31f" valueTypeId="e0997140-ab6f-49f2-b3f3-6b26cf590967"/>
+    <refType typeId="6c21a583-e3d6-46c3-b568-5091aa58310b" valueTypeId="2112c665-0795-4bd7-8a83-d2745faa90dd"/>
+    <selectionType typeId="b3e77864-7edc-4500-ab4a-4a3f90ea9a85" valueTypeId="49a10738-221d-46cb-864f-9ad09908b3ea"/>
+    <listType typeId="d1b40fa7-554f-4512-9a93-b96acfde3a3c" valueTypeId="e910734f-0541-4352-8dc6-d7dcdfbd6f55"/>
+    <managerType typeId="d6723b5b-3bd1-4c68-b608-067cceeb86a3" valueTypeId="c9de182c-d2f5-45e6-98f3-0265fcb5a298"/>
+  </producedTypes>
+  <name>Лимиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимиты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Лимиты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.СемейныйБюджет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5e101ba3-d238-469c-8e94-a9315a884ae5">
+    <name>ЧленСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчастникиСемьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96c6cf47-995f-4d4e-b4d8-9bfbfdd0d6a3">
+    <name>Лимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7632be36-67c8-4bd4-82cd-35f17b6675cc">
+  <producedTypes>
+    <selectionType typeId="4194d8e8-a0a7-4dbf-a793-d5f9cdd6695b" valueTypeId="e9bb49d0-c8b5-46e3-b92d-fa48d64edd81"/>
+    <listType typeId="32d35b7c-4b74-4ef7-879a-3c46406014e8" valueTypeId="816f29df-1568-44da-9076-beaf41cda50f"/>
+    <managerType typeId="401d9da9-6b03-4ee2-8bf8-a5389446abcb" valueTypeId="4599cfda-745f-49c1-b9fb-5b99512bc64a"/>
+    <recordSetType typeId="f27bd464-84b9-48f1-b50b-5b99d0a695a8" valueTypeId="71cc99c0-bd0e-45d7-a7ba-e3c84a9273f5"/>
+    <recordKeyType typeId="a98f08fa-1e5b-4273-9dc8-a32aee71e2d8" valueTypeId="310f226d-2ccc-4130-8db2-00ac6c16dbd7"/>
+    <recordType typeId="4bc39127-28ae-4d0b-af53-bac491e64e2f" valueTypeId="e3df0453-cbbc-46e0-9088-3cb5a9ed840c"/>
+    <recordManagerType typeId="f3f7f7c3-587e-48c6-aeb0-bd4adf1930bc" valueTypeId="f8e66a9a-729e-4346-b341-14965adff84c"/>
+  </producedTypes>
+  <name>СемейныйБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейный бюджет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b514f812-2446-476f-b1f8-580464794eca">
+    <name>ДоступныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные средства</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="badeaf38-e849-4bfc-b904-20d11474b77a">
+    <name>ЛимитРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит расходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6f56c50f-be61-4870-91d8-f3674f9826f2">
+    <name>ЧленСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчастникиСемьи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="36a59519-d7d6-4795-87f4-f9ab120679ad">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4489351d-fe58-4153-bf85-89832ed1df7e">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
