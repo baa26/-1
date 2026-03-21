@@ -37,6 +37,7 @@
   </languages>
   <catalogs>Catalog.КатегорииРасходов</catalogs>
   <catalogs>Catalog.УчастникиСемьи</catalogs>
+  <catalogs>Catalog.НовыйСправочник</catalogs>
   <documents>Document.Расход</documents>
   <documents>Document.Лимиты</documents>
   <documents>Document.ПополнениеСемейногоБюджета</documents>
